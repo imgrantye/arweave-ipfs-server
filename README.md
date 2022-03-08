@@ -42,7 +42,7 @@ It also displays/downloads the content you have uploaded , just add `#/your-ipfs
 
 ## Try 
 
-It's hosted at https://3b565264.ngrok.io as part of bounty challenge.
+It's hosted at https://3b565264.ngrok.io as an example of an interactive interface.
 Try a `curl -X POST 'https://3b565264.ngrok.io/add/Qmaisz6NMhDB51cCvNWa1GMS7LU1pAxdF4Ld6Ft9kZEP2a'` to see it working
 
 
@@ -137,13 +137,3 @@ In case of an error it returns:
     error: "..."
 }
 ```
-
-
-# arweave-ipfs library
-
-If you want to use ipfs with arweave directly without a server take a look at [arweave-ipfs](https://github.com/imerkle/arweave-ipfs).
-
-
-# Arweave-IPFS Explorer
-
-[arweave-ipfs-explorer](https://github.com/imerkle/arweave-ipfs-explorer) is an easy to use permaweb dapp that uses [arweave-ipfs](https://github.com/imerkle/arweave-ipfs) and[arweave-ipfs-server](https://github.com/imerkle/arweave-ipfs-server) to display and store ipfs hashes into blockchain.
